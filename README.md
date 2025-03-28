@@ -11,7 +11,7 @@ This project is a simple **SVC (Supervisor Call) Exception Calculator** that per
 
 ## How it Works
 
-The core functionality of the calculator is implemented using an SVC (Supervisor Call) exception handler. The SVC exception allows the program to trigger a software interrupt, passing control to the `SVC_Handler()` function. This handler processes the operation and returns the result.
+The core functionality of the calculator is implemented using an SVC (Supervisor Call) exception handler. The SVC exception allows the program to trigger a software interrupt, passing control to the `SVC_Handler()` function. This handler processes the operation using the r0 and r1 registers and returns the result.
 
 ### Supported Operations:
 1. **Addition**: Adds two numbers.
