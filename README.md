@@ -1,7 +1,3 @@
-Here's a sample GitHub README for your **SVC Exception Calculator** project:
-
----
-
 # SVC Exception Calculator
 
 This project is a simple **SVC (Supervisor Call) Exception Calculator** that performs basic arithmetic operations (addition, subtraction, multiplication, and division) on two input numbers using a custom `SVC_Handler()` function. It demonstrates how SVC exceptions can be leveraged to handle arithmetic operations at the system level.
